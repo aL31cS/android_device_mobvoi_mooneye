@@ -15,6 +15,7 @@
 
 DEVICE_PATH := device/mobvoi/mooneye
 BOARD_VENDOR := mobvoi
+TARGET_KERNEL_SOURCE := kernel/mobvoi/mooneye
 
 # Architecture
 TARGET_ARCH := arm
