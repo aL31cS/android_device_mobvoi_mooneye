@@ -25,7 +25,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := mobvoi
 PRODUCT_DEVICE := mooneye
 PRODUCT_MANUFACTURER := mobvoi
-PRODUCT_NAME := lineage_mooneye
+PRODUCT_NAME := full_mooneye
 PRODUCT_MODEL := TicWatch E
 
 PRODUCT_GMS_CLIENTID_BASE := android-mobvoi
