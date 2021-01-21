@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_mini.mk)
+$(call inherit-product-if-exists, vendor/lineage/config/common_mini.mk)
 
 # Inherit from mooneye device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
